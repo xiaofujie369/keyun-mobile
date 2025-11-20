@@ -1,0 +1,1 @@
+import { createRouter, createWebHashHistory } from 'vue-router'; const routes=[{path:'/login',component:()=>import('../pages/Login.vue')},{path:'/dashboard',component:()=>import('../pages/Dashboard.vue')}]; export default createRouter({history:createWebHashHistory(),routes});
